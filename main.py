@@ -17,7 +17,7 @@ def get_user_name():
     return input("Please enter your name: ")
 
 def greet_user(name):
-    print(f"Hello, {name}, how are you?")
+    print(f"Hello, {name}!")
 
 def main():
     user_name = get_user_name()
@@ -25,3 +25,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+commit 
