@@ -1,7 +1,7 @@
-print("Welcome to Elite 101 Chatbot!")
+print("Hi! My name is Helping Handy and I am here to assist you today.")
 name = input("What is your name?")
 print(f"Nice to meet you {name},")
-age = input("how old are you?")
+order = input("how old are you?")
 print("Welcome in! How can I help you today?\n")
 
 options = ['1. Option 1', '2. Option 2', '3. Option 3', '4. Exit the conversation']

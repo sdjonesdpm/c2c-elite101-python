@@ -25,4 +25,16 @@ def main():
 
 if __name__ == "__main__":
     main()
-commit 
+
+def contains_digits():
+    #loop through characters in string
+    # if digit return true
+    # return false if no digits found
+    # stop if digit found
+    # if seperate strings check each string
+
+    # "hello" -> False
+    # "hello123" -> True
+   #Input: a string (not from user)
+    # returns: boolean (True/False)
+    # for each character in string
