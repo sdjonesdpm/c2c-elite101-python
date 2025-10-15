@@ -38,3 +38,13 @@ def contains_digits():
    #Input: a string (not from user)
     # returns: boolean (True/False)
     # for each character in string
+    statuses = {"Santiago": "online", "Sasha": "online", "Ezekiel": "online", "Julianna": "online"}
+
+    def online_count(statuses):
+     status_count = 0
+    for name in statuses:
+            status = statuses[name]
+            if status == "online":
+                status_count +=1
+    return (status_count)
+print (online_count(statuses))
