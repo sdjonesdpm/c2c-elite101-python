@@ -33,6 +33,10 @@ elif number == '4':
 prices = ['Tacos: 3.50 each', 'Burritos: 4.50 each', 'Quesadillas: 2.00 each', 'Sharable Nachos: 5.00 each', 'Fajitas: 6.50 each', 'Chips & Salsa: 1.50 each']
 for price in prices:
     print(price)
-def goodbye():
-    print("Do you need anything else today?")
-    return bye_input = input("Please enter Y for Yes")
+#def goodbye():
+    #print("Do you need anything else today?")
+    #bye_input = input("Please enter Y for Yes")
+    #if bye_input.lower() == 'y':
+        #print("How else can I assist you today?")
+    #else :
+        #print("Thank you for talking with me! Have a great day!")
