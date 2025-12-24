@@ -6,3 +6,6 @@ def acronym_generator():
 #Collect the first letter of each word, uppercase it, and join into the final acronym
     acronym = ''.join(word[0].upper()for word in words)
 
+    print(f"The acronym for '{prompt}' is: {acronym}")
+
+    print("hello")
